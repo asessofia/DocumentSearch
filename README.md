@@ -50,4 +50,5 @@ The best approach to take will be to preprocess all the files and add them to a 
 The docstring is added in each of the methods in “main.py” to clarify what they do. Please follow that for further clarification.
 
 ###############################
+
 To run a performance based test that does 2 million search, please modify line 150 in main.py to extend i range to 2000000 and rerun the script.

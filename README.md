@@ -48,3 +48,6 @@ We have one time cost of preprocessing the text files but it can be neglected ag
 The best approach to take will be to preprocess all the files and add them to a data structure, then whenever the user makes a search, we search the data from this predefined, preprocessed data structure and get results in the blink of an eye.
 
 The docstring is added in each of the methods in “main.py” to clarify what they do. Please follow that for further clarification.
+
+###############################
+To run a performance based test that does 2 million search, please modify line 150 in main.py to extend i range to 2000000 and rerun the script.

@@ -57,9 +57,6 @@ The best approach to take will be to preprocess all the files and add them to a 
 
 The docstring is added in each of the methods in “main.py” to clarify what they do. Please follow that for further clarification.
 
-###############################
-
-To run a performance based test that does 2 million search, please modify line 150 in main.py to extend i range to 2000000 and rerun the script.
 
 # Exercise Selection Motivation
 I chose this case study because It highlighted my strenghts in python scriptings. I spent the last few years doing a lot of automation to help build highly available and secure application onpremises or in the public cloud and I have used Python, groovy and ruby. Python can be a language of choice for automation.

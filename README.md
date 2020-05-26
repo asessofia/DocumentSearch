@@ -21,9 +21,14 @@ Download the project from the following git repository https://github.com/asesso
 1. Clone the repository above
 2. cd to DocumentSearch
 3. run python --version to ensure that you have the right version of python
-3. run the command python3 main.py
-4. Make a selection on the user prompt and proceed
+4. run the command python3 main.py
+5. Make a selection on the user prompt and proceed
 ############################################################
+
+To run Performance Test for 2M searches, please do the following:
+1. If you don't want the choice input for the performance testing, please comment out line 175 and below in main.py
+2. run python3 main.py
+3. It makes take awhile to run (15 to 30 min) for 2M searches.
 
 How to handle really large files?
 
@@ -39,15 +44,7 @@ Increase the counter if found else break loop
 How to handle too many requests per second?
 	Answer: This can be achieved by making use of multiprocessing. Let’s say if we have a CPU with 4 cores we will be able to handle 4 requests at a time. And if these requests are heavy then only we should use multiprocessing. Otherwise another solution would be to host heavy code somewhere else with scalability and better hardware to do extensive task while we manage the number of requests with simple threading and call this function which is hosted somewhere else on better hardware. I.e. Separating the searching and request handling tasks.
 
-The results of 2 million random search
 
-
-Above picture shows the time counted and printed in the script itself.
-
-
-
-
-Above picture shows method_name, execution count, time in millisecond and own time as measured by the profiler.
 
 As you can see here pre-processing takes most of the time as in the current script it is happening every time the object of class is created, but in the real system that would be done only once hence saving us a lot of time. 
 
@@ -63,4 +60,4 @@ The docstring is added in each of the methods in “main.py” to clarify what t
 To run a performance based test that does 2 million search, please modify line 150 in main.py to extend i range to 2000000 and rerun the script.
 
 # Exercise Selection Motivation
-I chose this case study because It highligh my strenghts in python scriptings. I spent the last few years doing a lot of automation to help build highly available and secure application onpremises or in the public cloud and I have used Python, groovy and ruby. Python can be a language of choice for automation.
+I chose this case study because It highlighted my strenghts in python scriptings. I spent the last few years doing a lot of automation to help build highly available and secure application onpremises or in the public cloud and I have used Python, groovy and ruby. Python can be a language of choice for automation.

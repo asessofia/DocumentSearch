@@ -35,8 +35,7 @@ class SearchFile:
     def search_really_large_files(self, start=0):
         """
         Instead of reading the whole file at once in memory this method reads the file in chunks of bytes.
-        How many bytes to read at once is define by bsize variable.
-        Increasing bsize will increase the performance of this method.
+        How many bytes to read at once is define by bsize variable. Increasing bsize will increase the performance of this method.
         """
         print("\n\nResult of searching really large files by reading in chunks with token: {}".format(self.token))
         for file in self.file_generator():
@@ -159,8 +158,6 @@ if __name__ == '__main__':
     }
 
     preprocessed_data = preprocess('sample_text')
-
-    # Uncomment this method below to make random searches and test perfomance
 
     # two_million_test(preprocessed_data)
 

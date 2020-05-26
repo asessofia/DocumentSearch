@@ -30,6 +30,8 @@ To run Performance Test for 2M searches, please do the following:
 2. run python3 main.py
 3. It makes take awhile to run (15 to 30 min) for 2M searches.
 
+###############################
+
 How to handle really large files?
 
 Answer: The method "search_really_large_files" in main.py will handle the large files.

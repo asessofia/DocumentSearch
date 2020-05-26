@@ -6,12 +6,21 @@ Three files have been provided for you to read and use as sample search content.
 # Technology Stack
 Python 3.7.3
 
+Please verify you have Python 3 installed by running the command: python --version 
+
+If you don't have python 3 installed, please follow the steps below for installation:
+- Mac users: brew install python3 (assuming you have homebrew installed. If you don't have homebrew, please check here
+https://programwithus.com/learn-to-code/install-python3-mac/
+
+- Window users: https://www.python.org/downloads/release/python-377/ to install python 3
+
 # Git Repository
 Download the project from the following git repository https://github.com/asessofia/DocumentSearch
 
 # To test/run 
 1. Clone the repository above
 2. cd to DocumentSearch
+3. run python --version to ensure that you have the right version of python
 3. run the command python3 main.py
 4. Make a selection on the user prompt and proceed
 ############################################################
@@ -30,7 +39,7 @@ Increase the counter if found else break loop
 How to handle too many requests per second?
 	Answer: This can be achieved by making use of multiprocessing. Let’s say if we have a CPU with 4 cores we will be able to handle 4 requests at a time. And if these requests are heavy then only we should use multiprocessing. Otherwise another solution would be to host heavy code somewhere else with scalability and better hardware to do extensive task while we manage the number of requests with simple threading and call this function which is hosted somewhere else on better hardware. I.e. Separating the searching and request handling tasks.
 
-The results of 1 million random search
+The results of 2 million random search
 
 
 Above picture shows the time counted and printed in the script itself.
@@ -54,3 +63,4 @@ The docstring is added in each of the methods in “main.py” to clarify what t
 To run a performance based test that does 2 million search, please modify line 150 in main.py to extend i range to 2000000 and rerun the script.
 
 # Exercise Selection Motivation
+I chose this case study because It highligh my strenghts in python scriptings. I spent the last few years doing a lot of automation to help build highly available and secure application onpremises or in the public cloud and I have used Python, groovy and ruby. Python can be a language of choice for automation.

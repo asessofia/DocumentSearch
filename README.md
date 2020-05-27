@@ -26,9 +26,10 @@ Download the project from the following git repository https://github.com/asesso
 ############################################################
 
 To run Performance Test for 2M searches, please do the following:
-1. If you don't want the choice input for the performance testing, please comment out line 175 and below in main.py
-2. run python3 main.py
-3. It makes take awhile to run (15 to 30 min) for 2M searches.
+ - rename main1.py to main.py to run it
+ 
+ main1.py will run 2M searches without user input.
+
 
 ###############################
 
@@ -59,4 +60,4 @@ The docstring is added in each of the methods in “main.py” to clarify what t
 
 
 # Exercise Selection Motivation
-I chose this case study because It highlighted my strenghts in python scriptings. I spent the last few years doing a lot of automation to help build highly available and secure application onpremises or in the public cloud and I have used Python, groovy and ruby. Python can be a language of choice for automation.
+I chose this case study because It highlighted my strenghts in python scripting. I spent the last few years doing a lot of automation to help build highly available and secure application onpremises or in the public cloud and I have used Python, groovy and ruby. Python can be a language of choice for automation.
